@@ -44,7 +44,7 @@ const Banner = () => {
                   Cyber Battle Arena
                 </h1>
 
-                <p className="text-gray-300 mb-6">
+                <p className="text-gray-400 mb-6">
                   Enter the futuristic battlefield with high-end graphics and intense multiplayer action.
                 </p>
               </div>
@@ -72,7 +72,7 @@ const Banner = () => {
                   Racing Legends
                 </h1>
 
-                <p className="text-gray-300 mb-6">
+                <p className="text-gray-400 mb-6">
                   Feel the speed and adrenaline in the ultimate racing experience.
                 </p>
               </div>
@@ -100,7 +100,7 @@ const Banner = () => {
                   Warzone Strike
                 </h1>
 
-                <p className="text-gray-300 mb-6">
+                <p className="text-gray-400 mb-6">
                   Tactical combat meets realistic war simulation. Lead your squad to victory.
                 </p>
               </div>
