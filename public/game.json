@@ -1,0 +1,202 @@
+[
+  {
+    "id": "1",
+    "title": "Player Unknowns Battle Ground: PUBG",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/4/44/PlayerUnknown%27s_Battlegrounds_Mobile.webp",
+    "category": "FPS",
+    "downloadLink": "https://www.pubgmobile.com/en-US/home.shtml",
+    "description": "PUBG Mobile is a fast-paced battle royale game where players fight for survival, strategy, and victory on dynamic maps.",
+    "ratings": "4.5",
+    "developer": "Krafton"
+  },
+  {
+    "id": "2",
+    "title": "Call of Duty: Mobile",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/7/72/Call_of_Duty_Mobile.jpg",
+    "category": "FPS",
+    "downloadLink": "https://www.callofduty.com/mobile",
+    "description": "COD Mobile offers intense multiplayer combat and battle royale modes with iconic maps and weapons.",
+    "ratings": "4.6",
+    "developer": "Activision"
+  },
+  {
+    "id": "3",
+    "title": "Free Fire",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/6/6c/Garena_Free_Fire_cover.jpg",
+    "category": "Battle Royale",
+    "downloadLink": "https://ff.garena.com/",
+    "description": "Free Fire is a survival shooter game where 50 players parachute onto an island and fight to be the last one standing.",
+    "ratings": "4.3",
+    "developer": "Garena"
+  },
+  {
+    "id": "4",
+    "title": "Fortnite",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/0/0e/FortniteCover.jpg",
+    "category": "Battle Royale",
+    "downloadLink": "https://www.epicgames.com/fortnite",
+    "description": "Fortnite combines shooting, building, and survival in a colorful battle royale experience.",
+    "ratings": "4.7",
+    "developer": "Epic Games"
+  },
+  {
+    "id": "5",
+    "title": "Apex Legends Mobile",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/d/db/Apex_legends_cover.jpg",
+    "category": "FPS",
+    "downloadLink": "https://www.ea.com/games/apex-legends",
+    "description": "Apex Legends Mobile is a squad-based battle royale shooter with unique heroes and abilities.",
+    "ratings": "4.4",
+    "developer": "Electronic Arts"
+  },
+  {
+    "id": "6",
+    "title": "Minecraft",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png",
+    "category": "Sandbox",
+    "downloadLink": "https://www.minecraft.net/",
+    "description": "Minecraft is a sandbox game where players can build, explore, and survive in a blocky world.",
+    "ratings": "4.8",
+    "developer": "Mojang"
+  },
+  {
+    "id": "7",
+    "title": "GTA V",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
+    "category": "Open World",
+    "downloadLink": "https://www.rockstargames.com/gta-v",
+    "description": "GTA V is an open-world action-adventure game with immersive storytelling and massive exploration.",
+    "ratings": "4.9",
+    "developer": "Rockstar Games"
+  },
+  {
+    "id": "8",
+    "title": "Clash of Clans",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/5/59/Clash_of_Clans_Logo.png",
+    "category": "Strategy",
+    "downloadLink": "https://supercell.com/en/games/clashofclans/",
+    "description": "Clash of Clans is a strategy game where players build villages, train troops, and battle enemies.",
+    "ratings": "4.6",
+    "developer": "Supercell"
+  },
+  {
+    "id": "9",
+    "title": "Clash Royale",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/7/72/Clash_Royale_Logo.png",
+    "category": "Strategy",
+    "downloadLink": "https://supercell.com/en/games/clashroyale/",
+    "description": "Clash Royale mixes card strategy and real-time battles in a competitive arena.",
+    "ratings": "4.5",
+    "developer": "Supercell"
+  },
+  {
+    "id": "10",
+    "title": "Among Us",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/9/9a/Among_Us_cover_art.jpg",
+    "category": "Party",
+    "downloadLink": "https://www.innersloth.com/games/among-us/",
+    "description": "Among Us is a multiplayer game of teamwork and betrayal in space.",
+    "ratings": "4.4",
+    "developer": "Innersloth"
+  },
+  {
+    "id": "11",
+    "title": "Asphalt 9: Legends",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/4/48/Asphalt_9_Legends_cover.jpg",
+    "category": "Racing",
+    "downloadLink": "https://asphaltlegends.com/",
+    "description": "Asphalt 9 is a high-speed racing game with stunning graphics and licensed cars.",
+    "ratings": "4.6",
+    "developer": "Gameloft"
+  },
+  {
+    "id": "12",
+    "title": "Need for Speed No Limits",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/0/0c/Need_for_Speed_No_Limits_cover.jpg",
+    "category": "Racing",
+    "downloadLink": "https://www.ea.com/games/need-for-speed",
+    "description": "A street racing game with customization and intense racing challenges.",
+    "ratings": "4.3",
+    "developer": "Electronic Arts"
+  },
+  {
+    "id": "13",
+    "title": "Subway Surfers",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/7/70/Subway_Surfers_cover.jpg",
+    "category": "Arcade",
+    "downloadLink": "https://subwaysurfers.com/",
+    "description": "Subway Surfers is an endless runner game where players dodge trains and collect coins.",
+    "ratings": "4.5",
+    "developer": "SYBO Games"
+  },
+  {
+    "id": "14",
+    "title": "Temple Run 2",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/1/1f/Temple_Run_2_logo.png",
+    "category": "Arcade",
+    "downloadLink": "https://www.imangistudios.com/",
+    "description": "Temple Run 2 is an endless runner with thrilling obstacles and adventure.",
+    "ratings": "4.4",
+    "developer": "Imangi Studios"
+  },
+  {
+    "id": "15",
+    "title": "Candy Crush Saga",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/5/5a/Candy_Crush_Saga_logo.png",
+    "category": "Puzzle",
+    "downloadLink": "https://king.com/game/candycrush",
+    "description": "Candy Crush Saga is a match-three puzzle game with hundreds of levels.",
+    "ratings": "4.5",
+    "developer": "King"
+  },
+  {
+    "id": "16",
+    "title": "Hill Climb Racing",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/5/54/Hill_Climb_Racing_cover.jpg",
+    "category": "Racing",
+    "downloadLink": "https://www.fingersoft.com/games/hill-climb-racing/",
+    "description": "Hill Climb Racing is a physics-based driving game across challenging terrains.",
+    "ratings": "4.3",
+    "developer": "Fingersoft"
+  },
+  {
+    "id": "17",
+    "title": "Brawl Stars",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/9/9f/Brawl_Stars_cover.jpg",
+    "category": "Action",
+    "downloadLink": "https://supercell.com/en/games/brawlstars/",
+    "description": "Brawl Stars is a fast-paced multiplayer battle game with different modes and characters.",
+    "ratings": "4.6",
+    "developer": "Supercell"
+  },
+  {
+    "id": "18",
+    "title": "Shadow Fight 3",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/8/8c/Shadow_Fight_3_cover.jpg",
+    "category": "Fighting",
+    "downloadLink": "https://nekki.com/games/shadow-fight-3",
+    "description": "Shadow Fight 3 is a fighting RPG with realistic animations and combat styles.",
+    "ratings": "4.4",
+    "developer": "Nekki"
+  },
+  {
+    "id": "19",
+    "title": "FIFA Mobile",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/e/e3/FIFA_Mobile_cover.png",
+    "category": "Sports",
+    "downloadLink": "https://www.ea.com/games/fifa/fifa-mobile",
+    "description": "FIFA Mobile offers real-time football matches with licensed teams and players.",
+    "ratings": "4.5",
+    "developer": "Electronic Arts"
+  },
+  {
+    "id": "20",
+    "title": "eFootball 2024",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/4/4f/EFootball_2024_cover.jpg",
+    "category": "Sports",
+    "downloadLink": "https://www.konami.com/efootball/",
+    "description": "eFootball 2024 is a competitive football simulation game with realistic gameplay.",
+    "ratings": "4.2",
+    "developer": "Konami"
+  }
+]

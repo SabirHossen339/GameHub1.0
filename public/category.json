@@ -1,0 +1,54 @@
+[
+  {
+    "id": 0,
+    "name": "All Games"
+  },
+  {
+    "id": 1,
+    "name": "FPS"
+  },
+  {
+    "id": 2,
+    "name": "Battle Royale"
+  },
+  {
+    "id": 3,
+    "name": "Sandbox"
+  },
+  {
+    "id": 4,
+    "name": "Open World"
+  },
+  {
+    "id": 5,
+    "name": "Strategy"
+  },
+  {
+    "id": 6,
+    "name": "Party"
+  },
+  {
+    "id": 7,
+    "name": "Racing"
+  },
+  {
+    "id": 8,
+    "name": "Arcade"
+  },
+  {
+    "id": 9,
+    "name": "Puzzle"
+  },
+  {
+    "id": 10,
+    "name": "Action"
+  },
+  {
+    "id": 11,
+    "name": "Fighting"
+  },
+  {
+    "id": 12,
+    "name": "Sports"
+  }
+]
