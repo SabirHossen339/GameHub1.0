@@ -2,6 +2,7 @@ import React from 'react';
 import { Outlet } from 'react-router';
 import Navbar from '../Components/Navbar';
 import Banner from '../Components/Banner';
+import PopularGames from '../Components/PopularGames';
 
 const HomeLayout = () => {
   return (

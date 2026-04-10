@@ -109,14 +109,15 @@ hover:from-blue-600 hover:to-cyan-500 rounded-lg border-0 font-bold transition d
 
           <NavLink
             to="/login"
-            className="btn btn-primary rounded-xl border-0 w-full"
+            className="btn bg-linear-to-r from-blue-500 to-cyan-400 text-white
+hover:from-blue-600 hover:to-cyan-500 rounded-xl border-0 w-full"
           >
             Login
           </NavLink>
 
           <NavLink
             to="/register"
-            className="btn btn-warning rounded-xl border-0 w-full"
+            className="btn bg-linear-to-r from-cyan-400 to-blue-500 text-white rounded-xl border-0 w-full"
           >
             Register
           </NavLink>
