@@ -12,7 +12,7 @@
   {
     "id": "2",
     "title": "Call of Duty: Mobile",
-    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/7/72/Call_of_Duty_Mobile.jpg",
+    "coverPhoto": "https://www.talkesport.com/wp-content/uploads/cod-mobile.png",
     "category": "FPS",
     "downloadLink": "https://www.callofduty.com/mobile",
     "description": "COD Mobile offers intense multiplayer combat and battle royale modes with iconic maps and weapons.",
@@ -32,7 +32,7 @@
   {
     "id": "4",
     "title": "Fortnite",
-    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/0/0e/FortniteCover.jpg",
+    "coverPhoto": "https://cdn1.epicgames.com/offer/fn/FNBR_40-00_C7S2_EGS_Launcher_FN_Blade_2560x1440_2560x1440-325670227bc348a4a289570c1f099640",
     "category": "Battle Royale",
     "downloadLink": "https://www.epicgames.com/fortnite",
     "description": "Fortnite combines shooting, building, and survival in a colorful battle royale experience.",
@@ -52,7 +52,7 @@
   {
     "id": "6",
     "title": "Minecraft",
-    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png",
+    "coverPhoto": "https://assets.nintendo.eu/image/upload/f_auto,c_limit,w_992,q_auto:low/MNS/NOE/70010000000963/SQ_NSwitch_Minecraft",
     "category": "Sandbox",
     "downloadLink": "https://www.minecraft.net/",
     "description": "Minecraft is a sandbox game where players can build, explore, and survive in a blocky world.",
@@ -62,7 +62,7 @@
   {
     "id": "7",
     "title": "GTA V",
-    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
+    "coverPhoto": "https://www.trustedreviews.com/wp-content/uploads/sites/7/2014/11/GTA-5-1.jpg",
     "category": "Open World",
     "downloadLink": "https://www.rockstargames.com/gta-v",
     "description": "GTA V is an open-world action-adventure game with immersive storytelling and massive exploration.",
@@ -72,7 +72,7 @@
   {
     "id": "8",
     "title": "Clash of Clans",
-    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/5/59/Clash_of_Clans_Logo.png",
+    "coverPhoto": "https://catholicgamereviews.com/wp-content/uploads/2021/11/CoCloading-1.jpg",
     "category": "Strategy",
     "downloadLink": "https://supercell.com/en/games/clashofclans/",
     "description": "Clash of Clans is a strategy game where players build villages, train troops, and battle enemies.",
@@ -191,12 +191,12 @@
   },
   {
     "id": "20",
-    "title": "eFootball 2024",
-    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/4/4f/EFootball_2024_cover.jpg",
+    "title": "eFootball 2026",
+    "coverPhoto": "https://egw.news/uploads/news/1/17/1758218650435_1758218650436.webp",
     "category": "Sports",
     "downloadLink": "https://www.konami.com/efootball/",
     "description": "eFootball 2024 is a competitive football simulation game with realistic gameplay.",
-    "ratings": "4.2",
+    "ratings": "4.7",
     "developer": "Konami"
   }
 ]

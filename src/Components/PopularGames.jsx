@@ -1,4 +1,5 @@
 import React from 'react';
+import { IoGameController } from 'react-icons/io5';
 import { useNavigate } from 'react-router';
 
 
@@ -14,16 +15,41 @@ const PopularGames = ({games}) => {
     .slice(0,6);
    
     return (
-       <section className="max-w-7xl px-5 mt-10">
+       <section className="max-w-7xl px-10 mt-10 mx-auto">
         {/* Title */}
-<div>
+<div className="mb-10">
     <h1 className="text-3xl lg:text-5xl md:text-5xl font-bold">Popular <span className="text-blue-400">Games</span></h1>
             <p className="text-xl mt-2 text-gray-300 font-semibold">Curated picks from the indie community</p>
 </div>
 
 {/* GridLayout and card */}
-<div className="">
-    
+<div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 ">
+{popularGames.map((game)=>(
+    <div 
+    key={game.id} 
+    onClick={()=> navigate(`/game/${game.id}`)}
+    className="group cursor-pointer rounded-2xl overflow-hidden bg-linear-to-b from-gray-900 to-gray-800 shadow-lg hover:shadow-blue-500/20 transition duration-300"
+    >
+
+{/* Image */}
+<div className="relative overflow-hidden">
+<img src={game.coverPhoto} 
+alt={game.title} 
+className="w-full h-80 object-cover group-hover:scale-110 transition duration-300"
+/>
+
+{/* Hover Overlay */}
+              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                <p className="text-white font-semibold text-xl flex items-center justify-center gap-2">
+                  <span className="text-blue-400 text-2xl font-extrabold"><IoGameController /></span> View Details
+                </p>
+              </div>
+</div>
+
+
+
+    </div>
+))}
 </div>
 
        </section>
