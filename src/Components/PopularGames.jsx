@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaStar } from 'react-icons/fa';
 import { IoGameController } from 'react-icons/io5';
 import { useNavigate } from 'react-router';
 
@@ -15,7 +16,7 @@ const PopularGames = ({games}) => {
     .slice(0,6);
    
     return (
-       <section className="max-w-7xl px-10 mt-10 mx-auto">
+       <section className="max-w-7xl px-10 mt-10 mx-auto mb-5">
         {/* Title */}
 <div className="mb-10">
     <h1 className="text-3xl lg:text-5xl md:text-5xl font-bold">Popular <span className="text-blue-400">Games</span></h1>
@@ -23,7 +24,7 @@ const PopularGames = ({games}) => {
 </div>
 
 {/* GridLayout and card */}
-<div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 ">
+<div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
 {popularGames.map((game)=>(
     <div 
     key={game.id} 
@@ -35,7 +36,7 @@ const PopularGames = ({games}) => {
 <div className="relative overflow-hidden">
 <img src={game.coverPhoto} 
 alt={game.title} 
-className="w-full h-80 object-cover group-hover:scale-110 transition duration-300"
+className="w-full h-80 object-cover group-hover:scale-110 transition duration-300 p-2 mt-2 rounded-2xl"
 />
 
 {/* Hover Overlay */}
@@ -46,7 +47,20 @@ className="w-full h-80 object-cover group-hover:scale-110 transition duration-30
               </div>
 </div>
 
-
+{/* Content */}
+<div className="p-5">
+  <div className="flex items-center justify-between">
+<p className="mt-2 text-sm text-gray-400 font-semibold">{game.category}</p>
+<p className="mt-2 text-sm text-gray-400 font-semibold">{game.developer}</p>
+  </div>
+ 
+ <div className="flex items-center justify-between mt-4"> 
+    <h1 className="text-xl lg:text-2xl md:text-2xl font-bold">{game.title}</h1>
+    <p className="text-xl lg:text-2xl md:text-2xl text-blue-500 font-bold flex items-center gap-2">
+        <span><FaStar /></span> {game.ratings}</p>
+ </div>
+ <p className="text-gray-400 mt-2">{game.description}</p>
+</div>
 
     </div>
 ))}
