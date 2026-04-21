@@ -2,7 +2,8 @@ import React from 'react';
 import { Outlet } from 'react-router';
 import Navbar from '../Components/Navbar';
 import Banner from '../Components/Banner';
-import PopularGames from '../Components/PopularGames';
+import Footer from '../Components/Footer';
+
 
 const HomeLayout = () => {
   return (
@@ -20,7 +21,9 @@ const HomeLayout = () => {
         </section>
       </main>
 
-      <footer></footer>
+      <footer>
+        <Footer></Footer>
+      </footer>
     </div>
   );
 };
