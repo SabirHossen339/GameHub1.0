@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router";
 import HomeLayout from "../Layout/HomeLayout";
 import Home from "../Pages/Home";
+import Error from "../Pages/Error";
 
 const router = createBrowserRouter(
   [
@@ -24,8 +25,12 @@ const router = createBrowserRouter(
       element: <h2>Game Layout</h2>
     },
     {
+      path: "/about",
+      element: <h2>About</h2>
+    },
+    {
       path: "/*",
-      element: <h2>Error-404</h2>
+      element: <Error></Error>
     },
   ]
 );
