@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import PopularGames from '../Components/PopularGames';
 import { useLoaderData } from 'react-router';
 import Newsletter from '../Components/Newsletter';
@@ -8,7 +8,9 @@ const Home = () => {
     console.log(games)
     return (
         <div>
+            <Suspense fallback={<span className="loading loading-spinner text-info"></span>}>
             <PopularGames games={games}></PopularGames>
+            </Suspense>
             <div>
                 <Newsletter></Newsletter>
             </div>
