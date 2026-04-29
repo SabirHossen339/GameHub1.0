@@ -5,50 +5,46 @@
   },
   {
     "id": 1,
-    "name": "FPS"
-  },
-  {
-    "id": 2,
     "name": "Battle Royale"
   },
   {
-    "id": 3,
+    "id": 2,
     "name": "Sandbox"
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "Open World"
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "Strategy"
   },
   {
-    "id": 6,
+    "id": 5,
     "name": "Party"
   },
   {
-    "id": 7,
+    "id": 6,
     "name": "Racing"
   },
   {
-    "id": 8,
+    "id": 7,
     "name": "Arcade"
   },
   {
-    "id": 9,
+    "id": 8,
     "name": "Puzzle"
   },
   {
-    "id": 10,
+    "id": 9,
     "name": "Action"
   },
   {
-    "id": 11,
+    "id": 10,
     "name": "Fighting"
   },
   {
-    "id": 12,
+    "id": 11,
     "name": "Sports"
   }
 ]

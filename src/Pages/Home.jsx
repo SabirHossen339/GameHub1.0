@@ -5,7 +5,6 @@ import Newsletter from '../Components/Newsletter';
 
 const Home = () => {
     const games = useLoaderData();
-    console.log(games)
     return (
         <div>
             <Suspense fallback={<span className="loading loading-spinner text-info"></span>}>

@@ -3,6 +3,8 @@ import HomeLayout from "../Layout/HomeLayout";
 import Home from "../Pages/Home";
 import Error from "../Pages/Error";
 import About from "../Pages/About";
+import AllGames from "../Pages/AllGames";
+import Categories from "../Components/Categories";
 
 const router = createBrowserRouter(
   [
@@ -18,12 +20,16 @@ const router = createBrowserRouter(
       ]
     },
     {
+      path: "/category/:id",
+      element: <AllGames></AllGames>
+    },
+    {
       path: "/auth",
       element: <h2>Authentication Layout</h2>
     },
     {
       path: "/game",
-      element: <h2>Game Layout</h2>
+      element: <AllGames></AllGames>
     },
     {
       path: "/about",

@@ -3,6 +3,7 @@ import Navbar from '../Components/Navbar';
 import { GiBulletBill, GiDiceTarget, GiGamepad } from 'react-icons/gi';
 import { IoRocketSharp } from 'react-icons/io5';
 import { MdDeveloperMode } from 'react-icons/md';
+import Footer from '../Components/Footer';
 
 const About = () => {
     return (
@@ -89,6 +90,7 @@ const About = () => {
 
       </div>
     </div>
+    <Footer></Footer>
         </div>
     );
 };
