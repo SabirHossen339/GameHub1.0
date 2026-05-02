@@ -1,50 +1,50 @@
 [
   {
     "id": 0,
-    "name": "All Games"
+    "category": "All Games"
   },
   {
     "id": 1,
-    "name": "Battle Royale"
+    "category": "Battle Royale"
   },
   {
     "id": 2,
-    "name": "Sandbox"
+    "category": "Sandbox"
   },
   {
     "id": 3,
-    "name": "Open World"
+    "category": "Open World"
   },
   {
     "id": 4,
-    "name": "Strategy"
+    "category": "Strategy"
   },
   {
     "id": 5,
-    "name": "Party"
+    "category": "Party"
   },
   {
     "id": 6,
-    "name": "Racing"
+    "category": "Racing"
   },
   {
     "id": 7,
-    "name": "Arcade"
+    "category": "Arcade"
   },
   {
     "id": 8,
-    "name": "Puzzle"
+    "category": "Puzzle"
   },
   {
     "id": 9,
-    "name": "Action"
+    "category": "Action"
   },
   {
     "id": 10,
-    "name": "Fighting"
+    "category": "Fighting"
   },
   {
     "id": 11,
-    "name": "Sports"
+    "category": "Sports"
   }
 ]

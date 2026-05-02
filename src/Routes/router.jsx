@@ -21,7 +21,8 @@ const router = createBrowserRouter(
     },
     {
       path: "/category/:id",
-      element: <AllGames></AllGames>
+      element: <AllGames></AllGames>,
+      loader: ()=> fetch("/game.json")
     },
     {
       path: "/auth",

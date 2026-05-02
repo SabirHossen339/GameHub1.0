@@ -17,7 +17,7 @@ const Categories = () => {
             }`
           }
                 to={`/category/${category.id}`}
-                >{category.name}</NavLink>)
+                >{category.category}</NavLink>)
             }
             </div>
         </div>
